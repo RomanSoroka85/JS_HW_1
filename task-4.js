@@ -2,9 +2,9 @@ const credits = 23580;
 const pricePerDroid = 3000;
 let totalDroid = prompt("количество дроидов которые вы хотите купить");
 totalDroid = Number(totalDroid);
-let totalPrice = pricePerDroid * totalDroid;
+const totalPrice = pricePerDroid * totalDroid;
 console.log(totalPrice);
-let rest = credits - totalPrice;
+const rest = credits - totalPrice;
 console.log(rest);
 
 let message;
